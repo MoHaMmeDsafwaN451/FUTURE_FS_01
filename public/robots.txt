@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohammedsafwan451.github.io/FUTURE_FS_01/sitemap.xml
