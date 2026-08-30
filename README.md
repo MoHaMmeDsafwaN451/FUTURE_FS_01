@@ -1,5 +1,8 @@
 # FUTURE_FS_01 — Personal Portfolio
 
+deployed live portfolio site is available at:
+https://mohammedsafwan451.github.io/FUTURE_FS_01/
+
 A personal portfolio site built with **React + Vite + Tailwind CSS**.
 Sections: Hero, About, Skills, Projects, Experience/Education, Certificates, Contact (with a working form) — SEO meta tags included.
 
