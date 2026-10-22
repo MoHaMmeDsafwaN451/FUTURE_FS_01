@@ -48,6 +48,10 @@ export const skills = [
     category: 'Languages',
     items: ['English', 'Malayalam', 'Hindi', 'Arabic'],
   },
+  {
+    category: 'Databases & Backend',
+    items: ['MongoDB', 'Mongoose', 'Node.js', 'REST APIs', 'JWT Authentication'],
+  },
 ]
 
 export const projects = [
