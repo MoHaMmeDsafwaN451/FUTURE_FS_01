@@ -5,6 +5,7 @@ export const profile = {
   roles: [
     'B.Tech Student in AI & Data Science',
     'AI / ML Developer',
+    'Computer Vision Developer',
     'Full Stack Web Development Intern',
   ],
   tagline:
@@ -126,10 +127,10 @@ export const education = [
 
 export const experience = [
   {
-    title: 'Intern',
+    title: 'Cybersecurity Intern',
     place: 'TechbyHeart, Kottakkal (On-site)',
     period: 'Apr 2024 — May 2024',
-    detail: 'Conducted vulnerability analysis of 5+ web applications using Nessus; learned 10+ core OSINT techniques; and gained hands-on exposure to cybersecurity frameworks and Kali Linux tools.',
+    detail: 'Conducted vulnerability assessments of 5+ web applications using Nessus, explored OSINT techniques for information gathering and reconnaissance, and gained hands-on experience with Kali Linux and web application security testing.',
   },
   {
     title: 'Full Stack Developer Intern',
