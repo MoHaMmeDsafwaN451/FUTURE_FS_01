@@ -22,7 +22,7 @@ export const profile = {
 }
 
 export const stats = [
-  { label: 'Featured projects', value: '4' },
+  { label: 'Featured projects', value: '5' },
   { label: 'Education', value: 'AI & DS' },
   { label: 'Based in', value: 'Tirur, IN' },
 ]
@@ -68,7 +68,7 @@ export const projects = [
     description:
       'A time-series forecasting dashboard that visualises stock trends, uses Yahoo Finance data, and applies Prophet and Scikit-learn models. Containerised with Docker for deployment.',
     stack: ['Streamlit', 'yfinance', 'Pandas', 'NumPy', 'Prophet', 'Scikit-learn', 'Plotly', 'Docker'],
-    github: '',
+    github: 'https://stockmarketprediction-uvuye87wngmtovzbywaahd.streamlit.app/',
     demo: '',
   },
   {
@@ -77,6 +77,14 @@ export const projects = [
       'A real-time webcam face-mask detection system using CNN models to classify masked and unmasked faces from labelled image data.',
     stack: ['Python', 'OpenCV', 'TensorFlow', 'Keras', 'CNN'],
     github: '',
+    demo: '',
+  },
+  {
+    title: 'Mini CRM',
+    description:
+      'A full-stack Mini CRM (Client Lead Management System) application for managing client leads, tracking follow-ups, and updating lead statuses. Features secure admin authentication, lead CRUD operations, search and filtering, notes, and a dashboard',
+    stack: ['React', 'Vite', 'JavaScript', 'CSS', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT', 'bcrypt'],
+    github: 'future-fs-02-phi-seven.vercel.app',
     demo: '',
   },
   {
@@ -106,13 +114,13 @@ export const education = [
     title: 'Higher Secondary Education — Computer Science',
     place: 'Government Higher Secondary School, Niramaruthur, Malappuram',
     period: 'Jun 2021 — Mar 2023',
-    detail: 'Percentage: 68.',
+    detail: '',
   },
   {
     title: 'Secondary Education — SSLC',
     place: 'P. K. M. M. H. S. S, Kottakkal, Malappuram',
     period: 'Jun 2020 — Mar 2021',
-    detail: 'Grade: 7 A+.',
+    detail: '',
   },
 ]
 
@@ -124,18 +132,20 @@ export const experience = [
     detail: 'Conducted vulnerability analysis of 5+ web applications using Nessus; learned 10+ core OSINT techniques; and gained hands-on exposure to cybersecurity frameworks and Kali Linux tools.',
   },
   {
-    title: 'Full Stack Web Development Intern',
-    place: 'Future Interns',
+    title: 'Full Stack Developer Intern',
+    place: 'Future Interns (Remote)',
     period: 'Aug 2026 — Sep 2026',
-    detail: 'Current internship focused on React-based portfolio development, responsive web development, and Git/GitHub workflow.',
+    detail: 'Developed and deployed a full-stack Mini CRM using React, Node.js, Express.js, and MongoDB. Implemented JWT-based authentication, lead management, status tracking, follow-up scheduling, and dashboard analytics. Used GitHub for version control and Vercel for deployment.',
   },
 ]
 
 export const certificates = [
-  { title: 'Young Innovative Program — Machine Learning & Generative AI', issuer: 'Kerala Knowledge Economy Mission', year: '' },
-  { title: 'Python Intern Developer', issuer: 'Inker Robotics', year: '' },
-  { title: 'One Million Prompters', issuer: 'Details to be added', year: '' },
-  { title: 'AI Appreciate & AI Aware', issuer: 'Details to be added', year: '' },
+  { title: 'Young Innovative Program', issuer: 'Kerala Knowledge Economy Mission', year: '2024' },
+  { title: 'Microsoft Azure Essentialsr', issuer: 'Microsoft Press', year: '2026' },
+  { title: 'One Million Prompters', issuer: 'Dubai Centre for Artificial Intelligence', year: '2025' },
+  { title: 'AI Appreciate & AI Aware', issuer: 'AI For All — Intel, CBSE & Digital India', year: '2026' },
+  { title: 'Data Science, R & AI Workshop', issuer: 'Zoople Technologies Pvt. Ltd', year: '2026' },
+  { title: 'Robotics & Machine Learning Exhibition Volunteer', issuer: 'Inker Robotics', year: '2025' },
 ]
 
 // Add a Formspree endpoint only after you create and test the form.
